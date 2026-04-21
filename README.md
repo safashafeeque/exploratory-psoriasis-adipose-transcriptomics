@@ -43,14 +43,11 @@ These groups were selected to keep the comparison more focused and to avoid the 
 ## Concepts Explored
 
 - **RNA-seq count data**: Raw gene expression data showing how many sequencing reads were assigned to each gene.
-- **Metadata**: Information about the samples, such as condition, tissue type, and timepoint, which helps organise the analysis properly.
 - **Series matrix file**: A GEO text file that contains sample-level metadata and is useful for understanding how samples should be grouped.
-- **Count matrix**: A table where rows represent genes and columns represent samples.
 - **Log transformation**: A way of transforming count data to make large differences easier to handle and visualise.
 - **Variance**: A measure of how much values differ across samples. In this project, it was used to find the most variable genes.
 - **PCA (Principal Component Analysis)**: A method used to reduce high-dimensional data into a smaller number of components so overall patterns can be visualised more easily.
 - **Heatmap**: A colour-based plot used to show expression patterns across genes and samples.
-- **Sample grouping**: Organising samples into comparison groups based on biological or clinical characteristics.
 - **Gene ID to symbol mapping**: Converting Ensembl IDs into more readable gene symbols for easier interpretation.
 - **DataFrame filtering**: Selecting only the rows or columns relevant to the analysis.
 - **Transpose (`.T`)**: Switching rows and columns in a table, which is useful for steps like PCA and grouped expression analysis.
