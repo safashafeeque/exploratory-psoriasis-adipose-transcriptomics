@@ -1,4 +1,4 @@
-# Exploratory Transcriptomic Analysis of Inflammatory Patterns in Psoriasis-Associated Adipose Tissue
+# Exploratory Transcriptomic Analysis of Psoriasis-Associated Adipose Tissue
 
 ## Project Overview
 
